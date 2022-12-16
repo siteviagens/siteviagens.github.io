@@ -1,5 +1,6 @@
 html {
     font-family: 'Lora';
+    width: 100%;
 }
 
 body {
@@ -149,13 +150,18 @@ body {
     }
     
     .info-box {
-        position: static;
+        position: relative;
         width: 100%;
         border: none;
     }
     
     .navegacao li {
         width: 100%;
+        display: inline;
+    }
+
+    .caixa-cabecalho a{
+        margin: 10px;
     }
 
     .caixa-main {
@@ -164,12 +170,13 @@ body {
     }
 
     .caixa-main li {
-        display: inline-block;
+        display: inline;
         width: 100%;
     }
     
     .imagem-casa {
-        width: 100%;
+        width: 90%;
         height: 200px;
+        margin: 15px 5%;
     }
 }
